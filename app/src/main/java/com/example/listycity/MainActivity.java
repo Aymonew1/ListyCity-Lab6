@@ -64,7 +64,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        // 🔹 Delete the selected city
+        // Delete the selected city
         deleteButton.setOnClickListener(v -> {
             if (selectedPosition[0] != -1) {
                 dataList.remove(selectedPosition[0]);
